@@ -5,8 +5,8 @@ const Navbar = () => {
         </div>
 
         <div className="flex text-end gap-5 hover:cursor-pointer">
-            <div className="">
-                Home
+            <div >
+               <h1>Home</h1>
             </div>
             <div>
                 About Us
@@ -17,7 +17,7 @@ const Navbar = () => {
             <div>
                 Contact Us
             </div>
-            <div>
+            <div className="bg-custom-black rounded-xl text-white p-1 ">
                 GET STARTED
             </div>
         </div>

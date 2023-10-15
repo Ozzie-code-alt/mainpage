@@ -16,8 +16,12 @@ const config: Config = {
       textColor: {
         'justin-Color' : '#1C3F80',// Replace with your own color code
         'custom-blue': '#3366FF',
-        'custom-red': '#FF5733'
+        'custom-red': '#FF5733',
+        'custom-green' : '#ADD6E3'
       },
+      colors:{
+        'custom-black' : '#293B69'
+      }
     },
   },
   plugins: [],
