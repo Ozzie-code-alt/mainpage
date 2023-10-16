@@ -20,7 +20,7 @@ const MainPage = () => {
          
           </div>
 
-          <div className="bg-green-900 h-10 w-28 justify-self-center justify-center flex items-center rounded-lg text-white"> <button> Learn More</button></div>
+          <div className="bg-green-900 h-10 w-28 justify-self-center justify-center flex items-center rounded-lg text-white hover:bg-blue-400 duration-500"> <button> Learn More</button></div>
 
           <div className="flex justify-self-center gap-5">
             <BsFacebook className="w-8 h-8 text-justin-Color"/>
