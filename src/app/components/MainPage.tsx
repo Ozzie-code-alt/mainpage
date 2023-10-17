@@ -3,9 +3,14 @@ import Image from "next/image"; // handle images
 import {BsFacebook, BsTwitter, BsInstagram} from 'react-icons/bs'
 
 const MainPage = () => {
+
+
+ 
+
+
   return (
     <>
-      <div className=" h-4/5 grid grid-cols-3">
+      <div className=" grid grid-cols-3">
         <div className="left text-center grid gap-20 ">
           <div className="text-8xl font-bold text-blue-400 grid gap-4">
             Web <br/>
@@ -23,9 +28,9 @@ const MainPage = () => {
           <div className="bg-green-900 h-10 w-28 justify-self-center justify-center flex items-center rounded-lg text-white hover:bg-blue-400 duration-500"> <button> Learn More</button></div>
 
           <div className="flex justify-self-center gap-5">
-            <BsFacebook className="w-8 h-8 text-justin-Color"/>
-            <BsTwitter className="w-8 h-8 text-justin-Color"/>
-            <BsInstagram className="w-8 h-8 text-justin-Color"/>
+            <BsFacebook className="w-8 h-8 text-justin-Color hover:motion-safe:animate-bounce"/>
+            <BsTwitter className="w-8 h-8 text-justin-Color hover:motion-safe:animate-bounce"/>
+            <BsInstagram className="w-8 h-8 text-justin-Color hover:motion-safe:animate-bounce duration-500 ease-in-out"/>
           </div>
         </div>
 
