@@ -4,6 +4,7 @@ import {BsFacebook, BsTwitter, BsInstagram} from 'react-icons/bs'
 
 const MainPage = () => {
 
+
   return (
     <>
       <div className=" grid grid-cols-3  max-md:grid-cols-1">
