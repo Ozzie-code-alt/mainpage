@@ -21,7 +21,7 @@ const config: Config = {
       },
       colors:{
         'custom-black' : '#293B69'
-      }
+      },
     },
   },
   plugins: [],

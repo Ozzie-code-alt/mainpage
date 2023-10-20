@@ -8,4 +8,5 @@ body {
   color: rgb(var(--foreground-rgb));
   background: #ffffff;
   background-image: url("/bg_Blob.svg");
+  background-size: cover;
 }

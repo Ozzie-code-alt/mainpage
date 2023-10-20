@@ -4,13 +4,9 @@ import {BsFacebook, BsTwitter, BsInstagram} from 'react-icons/bs'
 
 const MainPage = () => {
 
-
- 
-
-
   return (
     <>
-      <div className=" grid grid-cols-3">
+      <div className=" grid grid-cols-3  max-md:grid-cols-1">
         <div className="left text-center grid gap-20 ">
           <div className="text-8xl font-bold text-blue-400 grid gap-4">
             Web <br/>
